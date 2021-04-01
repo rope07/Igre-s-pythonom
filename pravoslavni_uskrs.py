@@ -1,4 +1,4 @@
-def date_julian(year):
+def date_ortodox_easter(year):
     a = year % 4
     b = year % 7
     c = year % 19
@@ -40,4 +40,4 @@ def date_julian(year):
 
 year = int(input("Unesite godinu za koju želite saznati datum pravoslavnog Uskrsa: "))
 print()
-date_julian(year)
+date_ortodox_easter(year)
