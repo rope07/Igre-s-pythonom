@@ -1,5 +1,3 @@
-
-
 def date_julian(year):
     a = year % 4
     b = year % 7
